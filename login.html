@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login de Usuário</title>
+    <link rel="stylesheet" href="login.css".css">
+</head>
+
+<body>
+    <header class="fixed-header">
+        <div class="logo-container">
+            <img src="imagens/digitaldream.png" alt="Logo DD" class="logo1">
+            <img src="imagens/logomarca.png" alt="Logo DFD" class="logo2">
+        </div>
+        <nav>
+            <a href="#">Explore</a>
+            <a href="#">Cadastre-se</a>
+            <a href="#">Login</a>
+            <button class="btn-donate">DOE AGORA</button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="registration-header">
+            <h1>FAÇA SEU LOGIN</h1>
+            <p>Informe seu email e senha</p>
+        </div>
+
+        <div class="social-login">
+            <div class="google-box">
+                <img src="imagens/google.png" alt="Logo do Google">
+                <p>Entre com o Google</p>
+            </div>
+        </div>
+
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">Lembrar-me</label>
+            </div>
+
+            <button type="submit" class="btn-register">Login</button>
+        </form>
+
+        <p class="login-link">Ainda não tem cadastro? <a href="#">Faça seu cadastro</a></p>
+
+        <p class="terms-text">
+            Ao efetuar login, você está aceitando nossos <a href="#">termos de uso</a> e <a href="#">política de privacidade</a>.
+        </p>
+    </main>
+</body>
+</html>
