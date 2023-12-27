@@ -1,0 +1,587 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* cabeçalho --------------------------------------------------------------------------*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+/* logomarca --------------------------------------------------------------------------*/
+.logo img {
+    height: 55px; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* botão de doação --------------------------------------------------------------------------*/
+.donate-button {
+    margin-right: 50px; 
+}
+.donate-button a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.donate-button a:hover {
+    background-color: #0056b3;
+}
+
+
+/* Espaço do conteúdo --------------------------------------------------------------------------*/
+/* Imagem com frase principal --------------------------------------------------------------------------*/
+body {
+    padding-top: 80px; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background-image: url('imagens/pessoas-centro-comunitario.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 {
+    font-size: 36px; 
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.cta-buttons {
+    text-align: center;
+}
+
+.blue-button, .white-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.blue-button {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.white-button {
+    background-color: #fff;
+    color: #007BFF;
+    margin-left: 20px; 
+}
+
+.featured-posts {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+/*area empresa--------------------------------------------------------------------------*/
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.donate-info {
+    display: flex;
+    width: 90%; 
+}
+
+.info-text {
+    width: 50%;
+    text-align: left;
+    color: #0c0c0c;
+    padding-right: 100px;
+}
+
+.info-text .main-title {
+    font-size: 1.3em; 
+    text-transform: uppercase;
+    margin-bottom: 10px; 
+}
+
+.info-text h1 {
+    font-size: 2.5em; 
+    margin-top: 15px; 
+}
+
+.info-text p {
+    text-align: left;
+    margin-top: 15px;
+    font-size: 1.2em; 
+}
+
+.info-text button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px 24px; 
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px; 
+    font-weight: bold;
+}
+
+.logo-container {
+    width: 40%;
+    text-align: center;
+}
+
+.logo-container img {
+    max-width: 110%;
+    height: auto; 
+}
+
+
+/*area de duvida--------------------------------------------------------------------------*/
+.faq-section {
+    position: relative;
+}
+
+.faq-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('imagens/banner-duvidas.png');
+    background-size: cover;
+    padding: 50px;
+    color: #fff;
+}
+
+.faq-text {
+    max-width: 40%;
+}
+
+.white-button {
+    background-color: #fff;
+    color: #007BFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+
+/*Testando a visu dos perfis--------------------------------------------------------------------------*/
+.featured-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding: 0 30px;
+}
+
+.featured-title {
+    flex: 0 0 45%; 
+    padding: 0 30px; 
+}
+
+.featured-title h2 {
+    color: #007BFF; 
+    font-size: 36px;
+    text-transform: uppercase; 
+    font-weight: bold; 
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.featured-title p {
+    color: #000;
+    font-size: 20px;
+    text-align: left;
+}
+
+.featured-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 98%;
+}
+
+.post-container {
+    margin: 0 10px; 
+}
+
+.more-campaigns-btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.more-campaigns-btn:hover {
+    background-color: #0056b3;
+}
+
+.post h3,
+.post p {
+    color: #000; 
+}
+
+.post p.meta,
+.post p.donations {
+    color: #555;
+}
+
+.post {
+    width: 300px;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.profile-link {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.profile-link:hover {
+    text-decoration: underline;
+}
+
+
+
+/*categorias --------------------------------------------------------------------------*/
+.categories-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('imagens/fundo-categoria.png'); 
+    background-size: cover;
+    color: #fff; 
+    text-align: center;
+    padding: 50px 20px; 
+}
+
+.categories-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.content {
+    width: 45%; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+.left-content h2,
+.right-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffffff; 
+}
+
+.left-content p,
+.right-content p {
+    font-size: 1.2em;
+    color: #ffffff; 
+}
+
+.see-more-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.see-more-button:hover {
+    background-color: #0056b3;
+}
+
+
+/*projetos--------------------------------------------------------------------------*/
+.projects-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.projects-section h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #000;
+    font-weight: bold;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 300px;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project h3 {
+    color: #007BFF;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    color: #000;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.sponsor {
+    display: block;
+    color: #555;
+    margin-top: 10px;
+}
+
+.join-project-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+
+/*Mensagem final--------------------------------------------------------------------------*/
+.impact-section {
+    position: relative;
+    height: auto; 
+    overflow: hidden;
+}
+
+.image-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.overlay-text {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay-text h2 {
+    font-size: 2.7em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.donate-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+
+/*cabeçalho final--------------------------------------------------------------------------*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #fff;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.donate-button a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.donate-button a:hover {
+    background-color: #0056b3;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.mission,
+.follow-us,
+.contact {
+    flex: 1 1 300px;
+    margin-right: 20px;
+    background-color: #111; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.mission img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.follow-us,
+.contact {
+    margin-top: 20px; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+.footer-links a {
+    color: #fff;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-links a:hover {
+    border-bottom: 2px solid #007BFF; 
+}
+
+.copyright {
+    color: #fff;
+}
